@@ -39,10 +39,7 @@
 #### 14. A deployment to this server is failing and apparently it is due to selinux been set to enforcing mode. 
 #### you are tasked to disable it. Below are the steps to do that. go ahead and do it.
 ######    vi /etc/selinux/config
-######    change
-######    SELINUX=enforcing
-######    to
-######    SELINUX=diable
+######    change   SELINUX=enforcing to  SELINUX=diable
 ######    save and quit
 
 #### 15.  this server will be used as a webserver. Please go ahead and configure apache on it.
